@@ -1,0 +1,11 @@
+@mixin flex {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+@mixin inputs($font) {
+    font-size: $font;
+    border-radius: 5px;
+    padding: 10px;
+}
